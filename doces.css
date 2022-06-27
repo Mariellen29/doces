@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+header {
+    padding: 4rem;
+    background-color: crimson;
+    position: top;
+    flex-direction: row;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: .8rem;
+}
+
+ul li:last-child {
+    background-color: rgb(231, 124, 172);
+    color: aliceblue;
+    padding: .8rem;
+}
+
+.container {
+    display: flex; /* deixa as imagens lado a lado*/
+    gap: 8rem;
+    margin-top: 4rem;
+}
+ aside, main {
+     border: 1px;
+     position: relative;
+     left: 38%;
+     
+     
+ }
+
+
+aside img{
+    width: 100px;
+    height: 100px;
+    object-position: 4%;
+}
+
+
+main img {
+    width: 150px;
+    height: 100px;
+
+    object-position: 4%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;   
+    flex-direction: row;
+    margin-top: 4rem;
+    justify-content: space-between; /*separa um elemento do outro, nesse caso uma foto da outra*/
+    gap: .4rem; /*determina o valor da distacia entre os elementos*/
+}
+button {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100px;
+    line-height: 0;
+    gap: .4rem;
+    margin-left: 4rem;
+}
+
+button img {
+    width: 2rem;
+    height: 2rem;
+
+}
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    margin-top: 1rem;
+    padding: 1rem; /* completou toda a area footer */
+    display: flex;
+    background-color:crimson ;
+    
+    
+    align-content: center;
+    justify-content: center; 
+}
+
